@@ -7,7 +7,7 @@ import java.util.function.Consumer;
  * 受检异常的消费者接口 对应 JDK 的 Consumer<T>，但可以抛出受检异常
  *
  * @param <T> 输入参数类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedConsumer<T> {

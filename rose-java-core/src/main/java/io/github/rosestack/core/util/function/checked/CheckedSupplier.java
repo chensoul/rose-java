@@ -7,7 +7,7 @@ import java.util.function.Supplier;
  * 受检异常的供应者接口 对应 JDK 的 Supplier<T>，但可以抛出受检异常
  *
  * @param <T> 供应值的类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedSupplier<T> {

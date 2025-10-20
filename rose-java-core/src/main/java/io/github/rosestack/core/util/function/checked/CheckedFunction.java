@@ -8,7 +8,7 @@ import java.util.function.Function;
  *
  * @param <T> 输入参数类型
  * @param <R> 返回值类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedFunction<T, R> {

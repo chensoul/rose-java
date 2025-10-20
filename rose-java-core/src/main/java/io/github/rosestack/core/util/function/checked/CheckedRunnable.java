@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * 受检异常的可运行任务接口 对应 JDK 的 Runnable，但可以抛出受检异常
  *
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedRunnable {

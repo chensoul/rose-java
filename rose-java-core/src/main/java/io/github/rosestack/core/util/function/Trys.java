@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
  * Try 相关的工具方法集合
  * 提供异常安全的函数式编程工具
  *
- * @author rose
+ * @author chensoul
  */
 @Slf4j
 public final class Trys {

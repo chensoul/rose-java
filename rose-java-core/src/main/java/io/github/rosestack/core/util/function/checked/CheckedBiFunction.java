@@ -10,7 +10,7 @@ import java.util.function.Consumer;
  * @param <T> 第一个输入参数类型
  * @param <U> 第二个输入参数类型
  * @param <R> 返回值类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedBiFunction<T, U, R> {

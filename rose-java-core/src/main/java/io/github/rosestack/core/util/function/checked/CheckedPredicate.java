@@ -7,7 +7,7 @@ import java.util.function.Predicate;
  * 可能抛出受检异常的单参数断言接口
  *
  * @param <T> 输入类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedPredicate<T> {

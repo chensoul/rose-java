@@ -8,7 +8,7 @@ import java.io.UncheckedIOException;
  *
  * <p>提供将检查异常转换为非检查异常的功能
  *
- * @author rose
+ * @author chensoul
  * @since 1.0.0
  */
 public final class Sneaky {

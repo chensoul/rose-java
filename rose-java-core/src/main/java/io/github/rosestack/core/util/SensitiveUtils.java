@@ -10,7 +10,7 @@ import org.apache.commons.lang3.StringUtils;
  *
  * <p>提供基础的脱敏功能，支持常见的敏感数据类型脱敏。 使用简单直接的方式，无复杂的策略和规则。
  *
- * @author Rose Team
+ * @author chensoul
  * @since 1.0.0
  */
 @Slf4j

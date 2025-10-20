@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 地址信息基类
  *
- * @author rose
+ * @author chensoul
  */
 @Data
 public abstract class Address {

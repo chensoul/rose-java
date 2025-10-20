@@ -3,7 +3,7 @@ package io.github.rosestack.core.model;
 /**
  * 基础枚举接口 为所有业务枚举提供统一的契约
  *
- * @author rose
+ * @author chensoul
  */
 public interface BaseEnum {
 

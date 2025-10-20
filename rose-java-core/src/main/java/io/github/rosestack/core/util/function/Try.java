@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
  * - 移除 throw* 系列方法到 Preconditions 类
  *
  * @param <T> 成功时的值类型
- * @author rose
+ * @author chensoul
  */
 @Slf4j
 public final class Try<T> {

@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
  * 统一API响应格式
  *
  * @param <T> 数据类型
- * @author rose
+ * @author chensoul
  */
 @Data
 @Builder

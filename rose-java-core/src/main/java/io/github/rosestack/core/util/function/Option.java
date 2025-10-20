@@ -11,7 +11,7 @@ import java.util.function.Supplier;
  * 简化的可选值容器 提供比 JDK Option 更丰富的 API，支持函数式编程
  *
  * @param <T> 值的类型
- * @author rose
+ * @author chensoul
  */
 public final class Option<T> {
     private static final Option<?> NONE = new Option<>(null, false);

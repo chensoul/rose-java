@@ -8,7 +8,7 @@ import java.util.function.BiPredicate;
  *
  * @param <T> 第一个参数类型
  * @param <U> 第二个参数类型
- * @author rose
+ * @author chensoul
  */
 @FunctionalInterface
 public interface CheckedBiPredicate<T, U> {
