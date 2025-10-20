@@ -7,6 +7,7 @@
     <groupId>io.github.rosestack</groupId>
     <artifactId>rose-build</artifactId>
     <version>0.1.1</version>
+    <relativePath/>
   </parent>
 
   <groupId>io.github.rosestack</groupId>
