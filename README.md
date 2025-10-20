@@ -4,5 +4,5 @@
 [![Maven](https://img.shields.io/maven-central/v/io.github.rosestack/rose-java.svg)](https://central.sonatype.com/artifact/io.github.rosestack/rose-java)
 [![Codecov](https://codecov.io/gh/rosestack/rose-java/branch/main/graph/badge.svg)](https://app.codecov.io/gh/rosestack/rose-java)
 ![License](https://img.shields.io/github/license/rosestack/rose-java.svg)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/rosestack/rose-java.svg)](http://isitmaintained.com/project/rosestack/rose-java "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/rosestack/rose-java.svg)](http://isitmaintained.com/project/rosestack/rose-java "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/rosestack/rose-java.svg)](https://isitmaintained.com/project/rosestack/rose-java "Average time to resolve an issue")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/rosestack/rose-java.svg)](https://isitmaintained.com/project/rosestack/rose-java "Percentage of issues still open")
