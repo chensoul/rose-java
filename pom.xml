@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>io.github.rosestack</groupId>
     <artifactId>rose-build</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <relativePath/>
   </parent>
 
@@ -46,13 +45,16 @@
   </developers>
 
   <scm>
-    <url>git@github.com/rosestack/rose-java.git</url>
-    <connection>scm:git:${project.scm.url}</connection>
-    <developerConnection>scm:git:ssh://${project.scm.url}</developerConnection>
+    <url>https://github.com/rosestack/rose-java</url>
+    <connection>scm:git:git://github.com/rosestack/rose-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/rosestack/rose-java.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
-    <revision>0.0.1</revision>
+    <revision>0.0.2</revision>
+
+    <flatten.mode>ossrh</flatten.mode>
   </properties>
 
   <modules>
@@ -61,5 +63,4 @@
     <module>rose-annotation-processor</module>
     <module>rose-java-core</module>
   </modules>
-
 </project>

@@ -2,7 +2,6 @@ package io.github.rosestack.core.util.function;
 
 import static java.util.stream.Collectors.toList;
 
-import io.github.rosestack.core.util.function.checked.CheckedConsumer;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Objects;
@@ -11,6 +10,8 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+
+import io.github.rosestack.core.util.function.checked.CheckedConsumer;
 
 /**
  * @author <a href="mailto:ichensoul@gmail.com">chensoul</a>

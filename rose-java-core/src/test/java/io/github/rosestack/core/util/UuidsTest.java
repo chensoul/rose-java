@@ -2,11 +2,13 @@ package io.github.rosestack.core.util;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.github.f4b6a3.uuid.UuidCreator;
 import java.util.UUID;
+
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.github.f4b6a3.uuid.UuidCreator;
 
 class UuidsTest {
     private static final Logger log = LoggerFactory.getLogger(UuidsTest.class);

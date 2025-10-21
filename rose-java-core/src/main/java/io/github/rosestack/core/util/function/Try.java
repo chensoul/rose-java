@@ -1,10 +1,11 @@
 package io.github.rosestack.core.util.function;
 
-import io.github.rosestack.core.util.function.checked.*;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.Callable;
 import java.util.function.*;
+
+import io.github.rosestack.core.util.function.checked.*;
 import lombok.extern.slf4j.Slf4j;
 
 /**

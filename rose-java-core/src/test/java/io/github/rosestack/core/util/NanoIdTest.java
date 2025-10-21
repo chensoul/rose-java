@@ -4,6 +4,7 @@ import static io.github.rosestack.core.util.NanoId.DEFAULT_ALPHABET;
 import static io.github.rosestack.core.util.NanoId.DEFAULT_SIZE;
 
 import java.util.Random;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

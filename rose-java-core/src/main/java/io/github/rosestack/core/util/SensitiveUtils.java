@@ -2,8 +2,9 @@ package io.github.rosestack.core.util;
 
 import java.util.regex.Pattern;
 
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * 简化的敏感数据脱敏工具类
@@ -29,11 +30,11 @@ public class SensitiveUtils {
 
     // 车牌号正则 - 支持新能源和传统车牌
     public static final Pattern LICENSE_PLATE_PATTERN =
-        Pattern.compile("^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z][A-HJ-NP-Z0-9]{4,5}[A-HJ-NP-Z0-9挂学警港澳]$");
+            Pattern.compile("^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z][A-HJ-NP-Z0-9]{4,5}[A-HJ-NP-Z0-9挂学警港澳]$");
 
     // IPv4地址正则
     public static final Pattern IPV4_PATTERN =
-        Pattern.compile("^((25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(25[0-5]|2[0-4]\\d|[01]?\\d\\d?)$");
+            Pattern.compile("^((25[0-5]|2[0-4]\\d|[01]?\\d\\d?)\\.){3}(25[0-5]|2[0-4]\\d|[01]?\\d\\d?)$");
 
     public static final char MASK = '*';
     public static final String MASKED = "****";
@@ -183,8 +184,8 @@ public class SensitiveUtils {
         // 保留前2位和后2位
         int maskLength = licensePlate.length() - 4;
         return licensePlate.substring(0, 2)
-            + generateMask(maskLength, MASK)
-            + licensePlate.substring(licensePlate.length() - 2);
+                + generateMask(maskLength, MASK)
+                + licensePlate.substring(licensePlate.length() - 2);
     }
 
     /**

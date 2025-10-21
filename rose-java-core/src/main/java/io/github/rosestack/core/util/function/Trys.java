@@ -1,13 +1,14 @@
 package io.github.rosestack.core.util.function;
 
-import io.github.rosestack.core.util.function.checked.CheckedConsumer;
-import io.github.rosestack.core.util.function.checked.CheckedFunction;
-import io.github.rosestack.core.util.function.checked.CheckedSupplier;
 import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+
+import io.github.rosestack.core.util.function.checked.CheckedConsumer;
+import io.github.rosestack.core.util.function.checked.CheckedFunction;
+import io.github.rosestack.core.util.function.checked.CheckedSupplier;
 import lombok.extern.slf4j.Slf4j;
 
 /**

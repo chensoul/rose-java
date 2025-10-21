@@ -1,11 +1,12 @@
 package io.github.rosestack.core.util.function;
 
-import io.github.rosestack.core.util.function.checked.CheckedFunction;
 import java.util.Objects;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
+
+import io.github.rosestack.core.util.function.checked.CheckedFunction;
 
 /**
  * 简化的可选值容器 提供比 JDK Option 更丰富的 API，支持函数式编程

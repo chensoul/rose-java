@@ -1,6 +1,5 @@
 package io.github.rosestack.core.exception;
 
-
 /**
  * 基础异常类
  *
