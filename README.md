@@ -72,7 +72,7 @@ Rose Java 核心库，提供通用工具类和注解处理器。
         <groupId>io.github.rosestack</groupId>
         <artifactId>rose-java-core</artifactId>
     </dependency>
-    
+
     <!-- 注解处理器 -->
     <dependency>
         <groupId>io.github.rosestack</groupId>
@@ -85,22 +85,22 @@ Rose Java 核心库，提供通用工具类和注解处理器。
 ### 2. 使用工具类
 
 ```java
-import io.github.rosestack.core.util.*;
+
 
 // 日期处理
 String dateStr = DateUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
 
-// 敏感信息脱敏
-String maskedPhone = SensitiveUtils.desensitize("13800138000", SensitiveType.MOBILE_PHONE);
+        // 敏感信息脱敏
+        String maskedPhone = SensitiveUtils.desensitize("13800138000", SensitiveType.MOBILE_PHONE);
 // 输出: 138****8000
 
-// 生成唯一 ID
-String nanoId = NanoId.randomNanoId();
-String uuid = Uuids.timeBased().toString();
+        // 生成唯一 ID
+        String nanoId = NanoId.randomNanoId();
+        String uuid = Uuids.timeBased().toString();
 
-// JSON 处理
-String json = JsonUtils.toJson(object);
-MyObject obj = JsonUtils.fromJson(json, MyObject.class);
+        // JSON 处理
+        String json = JsonUtils.toJson(object);
+        MyObject obj = JsonUtils.fromJson(json, MyObject.class);
 ```
 
 ### 3. 使用注解处理器
