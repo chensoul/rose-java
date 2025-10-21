@@ -57,7 +57,7 @@
 
   <modules>
     <module>rose-java-parent</module>
-    <module>rose-java-dependencies</module>
+    <module>rose-java-bom</module>
     <module>rose-annotation-processor</module>
     <module>rose-java-core</module>
   </modules>

@@ -29,6 +29,7 @@
     <jackson-bom.version>2.13.5</jackson-bom.version>
     <!-- Testing -->
     <junit-jupiter.version>5.13.4</junit-jupiter.version>
+    <mockito.version>5.14.2</mockito.version>
     <jmh.version>1.37</jmh.version>
   </properties>
 
@@ -109,6 +110,18 @@
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
         <version>${junit-jupiter.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-core</artifactId>
+        <version>${mockito.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-junit-jupiter</artifactId>
+        <version>${mockito.version}</version>
       </dependency>
 
       <dependency>

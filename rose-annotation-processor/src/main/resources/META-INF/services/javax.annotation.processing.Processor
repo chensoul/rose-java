@@ -1,1 +1,2 @@
 io.github.rosestack.processor.autoservice.AutoServiceProcessor
+io.github.rosestack.processor.configuration.ConfigurationPropertyAnnotationProcessor

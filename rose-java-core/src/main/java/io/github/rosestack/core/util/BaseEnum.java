@@ -1,4 +1,4 @@
-package io.github.rosestack.core.model;
+package io.github.rosestack.core.util;
 
 /**
  * 基础枚举接口 为所有业务枚举提供统一的契约
