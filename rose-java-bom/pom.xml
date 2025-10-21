@@ -22,13 +22,13 @@
     <dependencies>
       <dependency>
         <groupId>io.github.rosestack</groupId>
-        <artifactId>rosestack-annotation-processor</artifactId>
+        <artifactId>rose-annotation-processor</artifactId>
         <version>${revision}</version>
       </dependency>
 
       <dependency>
         <groupId>io.github.rosestack</groupId>
-        <artifactId>rosestack-java-core</artifactId>
+        <artifactId>rose-java-core</artifactId>
         <version>${revision}</version>
       </dependency>
     </dependencies>
