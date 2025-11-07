@@ -1,4 +1,4 @@
-package io.github.rosestack.util.function;
+package io.github.rosestack.lang.function;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;

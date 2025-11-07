@@ -1,6 +1,6 @@
-package io.github.rosestack.util.function;
+package io.github.rosestack.lang.function;
 
-import io.github.rosestack.util.function.checked.*;
+import io.github.rosestack.lang.function.checked.*;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Objects;

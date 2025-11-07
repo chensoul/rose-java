@@ -1,4 +1,4 @@
-package io.github.rosestack.util.function;
+package io.github.rosestack.lang.function;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;

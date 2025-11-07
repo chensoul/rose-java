@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.rosestack</groupId>
+        <artifactId>rose-build</artifactId>
+        <version>0.1.2</version>
+        <relativePath/>
+    </parent>
+
     <groupId>io.github.rosestack</groupId>
-    <artifactId>rose-build</artifactId>
-    <version>0.1.2</version>
-    <relativePath/>
-  </parent>
+    <artifactId>rose-java</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
 
-  <groupId>io.github.rosestack</groupId>
-  <artifactId>rose-java</artifactId>
-  <version>${revision}</version>
-  <packaging>pom</packaging>
-
-  <name>Rose :: Java</name>
-  <description>Rose Projects for Java</description>
-  <url>https://github.com/rosestack/rose-java</url>
-
-  <organization>
-    <name>RoseStack</name>
-    <url>https://github.com/rosestack</url>
-  </organization>
-
-  <licenses>
-    <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <id>chensoul</id>
-      <name>Chensoul</name>
-      <email>ichensoul@gmail.com</email>
-      <organization>RoseStack</organization>
-      <roles>
-        <role>lead</role>
-        <role>architect</role>
-        <role>developer</role>
-      </roles>
-    </developer>
-  </developers>
-
-  <scm>
+    <name>Rose :: Java</name>
+    <description>Rose Projects for Java</description>
     <url>https://github.com/rosestack/rose-java</url>
-    <connection>scm:git:git://github.com/rosestack/rose-java.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/rosestack/rose-java.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
 
-  <properties>
-    <revision>0.0.2</revision>
+    <organization>
+        <name>RoseStack</name>
+        <url>https://github.com/rosestack</url>
+    </organization>
 
-    <flatten.mode>ossrh</flatten.mode>
-  </properties>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
-  <modules>
-    <module>rose-java-parent</module>
-    <module>rose-java-bom</module>
-    <module>rose-annotation-processor</module>
-    <module>rose-java-core</module>
-  </modules>
+    <developers>
+        <developer>
+            <id>chensoul</id>
+            <name>Chensoul</name>
+            <email>ichensoul@gmail.com</email>
+            <organization>RoseStack</organization>
+            <roles>
+                <role>lead</role>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/rosestack/rose-java</url>
+        <connection>scm:git:git://github.com/rosestack/rose-java.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/rosestack/rose-java.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <revision>0.0.3-SNAPSHOT</revision>
+
+        <flatten.mode>ossrh</flatten.mode>
+    </properties>
+
+    <modules>
+        <module>rose-java-parent</module>
+        <module>rose-java-bom</module>
+        <module>rose-annotation-processor</module>
+        <module>rose-java-core</module>
+    </modules>
 </project>

@@ -75,5 +75,11 @@
       <artifactId>logback-classic</artifactId>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>io.github.rosestack</groupId>
+          <artifactId>rose-annotation-processor</artifactId>
+          <version>0.0.2</version>
+          <scope>compile</scope>
+      </dependency>
   </dependencies>
 </project>

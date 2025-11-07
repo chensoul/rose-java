@@ -891,4 +891,7 @@ public abstract class StringUtils {
         return new String(buf);
     }
 
+    public static String defaultString(String value, String defaultValue) {
+        return isBlank(value) ? defaultValue : value;
+    }
 }

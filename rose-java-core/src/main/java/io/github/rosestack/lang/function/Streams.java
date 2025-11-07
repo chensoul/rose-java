@@ -1,4 +1,4 @@
-package io.github.rosestack.util.function;
+package io.github.rosestack.lang.function;
 
 import static java.util.stream.Collectors.toList;
 
@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import io.github.rosestack.util.function.checked.CheckedConsumer;
+import io.github.rosestack.lang.function.checked.CheckedConsumer;
 
 /**
  * @author <a href="mailto:ichensoul@gmail.com">chensoul</a>
